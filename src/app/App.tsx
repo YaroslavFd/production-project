@@ -6,8 +6,6 @@ import { Sidebar } from 'widgets/Sidebar';
 import { PageLoader } from 'widgets/PageLoader';
 import { AppRouter } from './providers/router';
 
-import './styles/index.scss';
-
 const App = () => {
   const { theme } = useTheme();
 
